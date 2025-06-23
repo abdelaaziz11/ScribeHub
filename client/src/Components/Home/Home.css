@@ -1,0 +1,13 @@
+
+
+.home {
+    padding: 0;
+    margin: 0;
+    height: 92vh;
+    background: url('../../Assets/mm.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: blue;
+}
