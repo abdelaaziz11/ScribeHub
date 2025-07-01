@@ -1,13 +1,31 @@
 
 
-.home {
+/* .home {
     padding: 0;
     margin: 0;
     height: 92vh;
-    background: url('../../Assets/mm.jpeg');
+    background: url('../../Assets/img2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-color: blue;
+} */
+
+.home_hero {
+    height: 92vh;
+    background-color: rgba(67, 68, 95, 0.906);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left_hero {
+    color: #fff;
+}
+.right_hero {
+    height: 60vh;
+    width: 400px;
+    background: url('../../Assets/images.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
