@@ -12,6 +12,8 @@
     background-color: blue;
 } */
 
+/* HERO ---------- */
+
 .home_hero {
     height: 92vh;
     background-color: rgba(67, 68, 95, 0.906);
@@ -21,6 +23,7 @@
 }
 .left_hero {
     color: #fff;
+    width: 500px;
 }
 .right_hero {
     height: 60vh;
@@ -28,4 +31,46 @@
     background: url('../../Assets/images.jpeg');
     background-repeat: no-repeat;
     background-size: cover; 
+}
+
+/* ABOUT ---------- */
+
+.about {
+    height: 80vh;
+    margin: 50px 400px;
+}
+.about .heading {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+.about .about-paragraph {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* FEATURES ---------- */
+.features-section{
+    height: 80vh;
+}
+.features-section .heading {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.features-content {
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+}
+
+.features-box .features-head {
+    font-weight: 600;
 }
