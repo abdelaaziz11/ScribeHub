@@ -1,5 +1,7 @@
 import React from 'react'
 import '../Home/Home.css';
+import image from '../../Assets/mine.png'
+import image1 from '../../Assets/mine.png'
 
 const Home = () => {
   return (
@@ -38,6 +40,8 @@ const Home = () => {
 
             Start sharing. Start listening. Start connecting—with ChatTales.
           </p>
+          <img src={image} alt="" style={{ width: "500px" }}  />
+          <img src={image1} alt="" style={{ width: "500px" }}  />
         </section>
         <section className="features-section">
           <p className='heading'>Features</p>
