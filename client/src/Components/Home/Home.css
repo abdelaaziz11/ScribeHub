@@ -25,19 +25,16 @@
     color: #fff;
     width: 500px;
 }
-.right_hero {
-    height: 60vh;
-    width: 400px;
-    background: url('../../Assets/images.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover; 
+.right_hero img {
+    border-radius: 16px;
 }
 
 /* ABOUT ---------- */
 
 .about {
-    height: 80vh;
+    height: 90vh;
     margin: 50px 400px;
+
 }
 .about .heading {
     margin-top: 30px;
@@ -51,10 +48,22 @@
     justify-content: center;
     text-align: center;
 }
-.about img {
-    gap: 1Opx;
+.about .image-about {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    margin: 20px;
+    border-radius: 16px;
 }
 
+.aboutstory {
+    display: flex;
+}
+.aboutstory p {
+    margin-top: 50px;
+    text-align: center;
+}
 
 /* FEATURES ---------- */
 .features-section{
