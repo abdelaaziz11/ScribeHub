@@ -8,6 +8,11 @@ const Footer = () => {
       <section className='footer'>
         <div className='left-footer'>
           <h1>ScribeHub</h1> 
+          <div className='contact'>
+            <p>Gmail</p>
+            <p>Twitter</p>
+            <p>Instagram</p>
+          </div>
         </div>
         <div className='right-footer'>
           <img src={footer} alt="" />
