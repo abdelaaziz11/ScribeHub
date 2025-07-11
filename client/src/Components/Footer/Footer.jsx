@@ -9,6 +9,7 @@ const Footer = () => {
         <div className='left-footer'>
           <h1>ScribeHub</h1> 
           <div className='contact'>
+            
             <p>Gmail</p>
             <p>Twitter</p>
             <p>Instagram</p>
