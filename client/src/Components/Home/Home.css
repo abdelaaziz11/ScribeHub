@@ -32,9 +32,7 @@
 /* ABOUT ---------- */
 
 .about {
-    height: 90vh;
     margin: 50px 400px;
-
 }
 .about .heading {
     margin-top: 30px;
@@ -85,4 +83,22 @@
 
 .features-box .features-head {
     font-weight: 600;
+}
+
+/* CONTACT --------------*/
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+@media (max-width: 1540px) {
+    .about {
+        margin: 50px 300px;
+    }
+    .image-about {
+        width: 500px;
+    }
 }

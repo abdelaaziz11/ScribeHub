@@ -100,6 +100,12 @@ const Home = () => {
           </div>
 
         </section>
+        <section className='stories'>
+        </section>
+        <section className='contact'>
+
+        </section>
+       
       </div>
     </>
   )
