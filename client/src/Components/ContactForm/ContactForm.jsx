@@ -5,7 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ContactForm = () => {
   return (
+    <>
+    
     <div className="contact-section py-5" style={{ background: '#a97eff1a', minHeight: '100vh' }}>
+      
       <div className="container bg-white shadow rounded-4 p-4">
         <div className="row align-items-center">
           {/* Left Side: Image */}
@@ -57,6 +60,7 @@ const ContactForm = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

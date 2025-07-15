@@ -2,8 +2,11 @@ import React from 'react'
 import '../Home/Home.css';
 import image from '../../Assets/mine.png'
 import hero from '../../Assets/book.jpg'
+import {Link } from 'react-router-dom'
 
 const Home = () => {
+
+
   return (
     <>
       <div className="home">
@@ -12,7 +15,8 @@ const Home = () => {
             <h1>ScribeHub</h1>
             <p>Welcome to ScribeHub, a vibrant space where stories come to life and communities grow through connection <br />
               A Community Chat and Story Sharing</p>
-            <button className='btn btn-primary'>Get Started</button>
+              <Link to='/login'>
+            <button className='btn btn-primary'>Get Started</button></Link>
           </div>
           <div className="right_hero">
             <img src={hero} alt="" />
