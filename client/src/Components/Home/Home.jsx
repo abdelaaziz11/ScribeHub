@@ -1,5 +1,7 @@
 import React from 'react'
 import '../Home/Home.css';
+import Footer from '../../Components/Footer/Footer'
+import ContactForm from '../../Components/ContactForm/ContactForm'
 import image from '../../Assets/mine.png'
 import hero from '../../Assets/book.jpg'
 import {Link } from 'react-router-dom'
@@ -19,10 +21,10 @@ const Home = () => {
             <button className='btn btn-primary'>Get Started</button></Link>
           </div>
           <div className="right_hero">
-            <img src={hero} alt="" />
+            <img src={hero} alt="rh" />
           </div>
         </section>
-        <section className="about">
+        <section className="about" id='about'>
           <p className='heading'>About</p>
           <p className="about-paragraph">
             Welcome to ChatTales, a vibrant space where stories come to life and communities grow through connection.
@@ -51,7 +53,7 @@ const Home = () => {
           </div>
           {/* <img src={image1} alt="" style={{ width: "500px" }}  /> style={{ width: "720px" }}*/}
         </section>
-        <section className="features-section">
+        <section className="features-section" id='features'>
           <p className='heading'>Features</p>
           <div className="features-content">
             <div className='features-box'>
@@ -104,11 +106,10 @@ const Home = () => {
           </div>
 
         </section>
-        <section className='stories'>
+        <section className='stories' id='stories'>
         </section>
-        <section className='contact'>
-
-        </section>
+        <ContactForm/>
+        <Footer/>
        
       </div>
     </>
