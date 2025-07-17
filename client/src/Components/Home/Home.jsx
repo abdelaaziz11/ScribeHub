@@ -2,7 +2,7 @@ import React from 'react'
 import '../Home/Home.css';
 import Footer from '../../Components/Footer/Footer'
 import ContactForm from '../../Components/ContactForm/ContactForm'
-import image from '../../Assets/mine.png'
+import image from '../../Assets/story-feature.jpg'
 import hero from '../../Assets/book.jpg'
 import {Link } from 'react-router-dom'
 

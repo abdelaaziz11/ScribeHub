@@ -1,0 +1,22 @@
+.login {
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 127, 173);
+}
+.login-form {
+    text-align: center;
+}
+.form-login{
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 30px;
+}
+.form-group {
+    margin: 10px;
+}
+
+.form-group input {
+    text-align: center;
+}
